@@ -6,5 +6,5 @@ Ghost at the party
 Python 3.7
 # How to run
 python main.py
-#Contributing
+# Contributing
 Given that this is a final none will be aloud
