@@ -1,6 +1,6 @@
 # What is this
 Final project / assassination game
-#whats the working title?
+# Whats the working title?
 Ghost at the party
 # Dependencies
 Python 3.7
