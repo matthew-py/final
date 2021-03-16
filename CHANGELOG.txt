@@ -2,3 +2,5 @@
 ##added
 - main file with lists
 - created changelog
+###[0.0.2] - 2021/03/16
+##added README file
