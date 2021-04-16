@@ -1,11 +1,3 @@
-# Matthew Deyenberg
-# computer science 30 period 1
-# 2021/04/01
-# simple rpg menu
-# setting player to main floor as starting level
-player_location = "main floor"
-
-
 def menu_options_main():
     '''menu for main floor includes list and actions'''
     print("menu:")
@@ -26,6 +18,8 @@ def menu_options_main():
 
 
 def main_menu():
+    '''takes action for menu'''
+    player_location = "main floor"
     while player_location == 'main floor':
         # taking use input
         action = input("what action would you like to take: ")
@@ -57,6 +51,3 @@ def main_menu():
             break
         else:
             print("error try again")
-# calling functions
-menu_options_main()
-main_menu()
