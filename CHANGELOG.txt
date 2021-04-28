@@ -11,4 +11,6 @@
 ###[0.0.5] - 2021/04/16
 -changed menu file added imports to main and added a map file 
 ##[0.0.6] - 2021/04/28
--small update to readme file
+-small update to README file
+##[0.1.0] - 2021/04/28
+updated all existing files and added 3 new ones, the game is now working
