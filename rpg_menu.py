@@ -1,3 +1,11 @@
+import time
+from rpg_basement import basement_options
+from rpg_basement import basement_menu
+from rpg_map import map_of_floors
+from starting_game import *
+from rpg_upstairs import *
+
+
 def menu_options_main():
     '''menu for main floor includes list and actions'''
     print("menu:")
@@ -28,19 +36,32 @@ def main_menu():
             print("your already on the main floor")
         elif action == "upstairs master bed room":
             print("you go up the stairs and through the door")
+            time.sleep(5)
+            print('\n' * 100)
+            upstairs_options()
+            upstairs_menu()
         elif action == "basement":
             print("you go down the stairs and through the door")
+            time.sleep(5)
+            basement_options()
+            basement_menu()
         elif action == "use gun":
             print("error usage: use gun player_name")
 # breaks added for game over to break loop
         elif action == 'use gun josh':
             print("you shot josh but luke noticed and yelled")
             print("game over")
-            break
+            print("starting new game in 5 seconds")
+            time.sleep(5)
+            print('\n' * 100)
+            game_start()
         elif action == "use gun luke":
             print("you shot luke but josh noticed and yelled")
             print("game over")
-            break
+            print("starting new game in 5 seconds")
+            time.sleep(5)
+            print('\n' * 100)
+            game_start()
         elif action == "use poison":
             print("error usage use poison player_name")
         elif action == "use poison josh":
@@ -48,6 +69,7 @@ def main_menu():
         elif action == "use poison luke":
             print("print you can only use poison on the target")
         elif action == "exit":
+            print("back")
             break
         else:
             print("error try again")
