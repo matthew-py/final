@@ -10,3 +10,5 @@
 -added menu file and made slight changes to changelog and file names
 ###[0.0.5] - 2021/04/16
 -changed menu file added imports to main and added a map file 
+##[0.0.6] - 2021/04/28
+-small update to readme file
