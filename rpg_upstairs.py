@@ -1,6 +1,6 @@
 from rpg_menu import *
 from starting_game import *
-circuit_breaker = [1, 2]
+circuit_breaker = [1, 2, 3]
 
 
 def upstairs_options():
